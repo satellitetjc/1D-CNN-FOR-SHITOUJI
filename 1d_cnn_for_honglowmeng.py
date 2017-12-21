@@ -36,7 +36,8 @@ def smc_retrieval(window_size, filter_length, nb_input_lw, nb_output_smc,
     return model
 
 def load_save():
-    os.chdir("E:\\hongloumen\\workspace\\shuju\\")
+    #输入数据
+    os.chdir("E:\\hongloumeng\\workspace\\shuju\\")
     array = np.zeros((),dtype=int)
     array = np.loadtxt(open("quweima2.txt"))
     array2 = array.astype(int)
@@ -53,7 +54,8 @@ def load_save():
 load_save()
 
 def test_save():
-     os.chdir("E:\\hongloumen\workspace\\test\\")
+     #原文最后前50个字，用作输出续写的第一个字
+     os.chdir("E:\\hongloumeng\\workspace\\test\\")
      a = np.loadtxt(open("thelast50.txt"))#原文最后50个字
      b = a.astype(int)
      #c = b.reshape(1,50,1)
