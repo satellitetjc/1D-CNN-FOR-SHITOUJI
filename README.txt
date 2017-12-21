@@ -9,8 +9,6 @@ DATE ——2017.12.21——
 预处理：用word删除所有空格、换行、标点符号，只留汉字，用软件将汉字转为GB2312-80区位码，保存成txt文件。
 运行sample_watch.py可查看样本
 
-
-
 区位码转换软件：汉字区位码查询 https://pan.baidu.com/s/1pLqoc4b  key：2uvf
 
 例：
